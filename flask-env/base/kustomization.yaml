@@ -1,0 +1,8 @@
+commonLabels:
+  app: test-cicd
+
+resources:
+- service.yaml
+- deployment.yaml
+
+

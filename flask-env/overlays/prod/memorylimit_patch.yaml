@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-cicd
+spec:
+  template:
+    metadata:
+      labels:
+        version: 0.0.1
+    spec:
+      containers:
+        - name: test-cicd
+          resources:
+            limits:
+              cpu: 500m
+              memory: 1000Mi
+            requests:
+              cpu: 500m
+              memory: 1000Mi
+          env:
+          - name: ENV
+            value: prod

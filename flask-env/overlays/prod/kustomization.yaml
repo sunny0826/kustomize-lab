@@ -1,0 +1,6 @@
+bases:
+- ../../base
+patchesStrategicMerge:
+- healthcheck_patch.yaml
+- memorylimit_patch.yaml
+namespace: devops-prod

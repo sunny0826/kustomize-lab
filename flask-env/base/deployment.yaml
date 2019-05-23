@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-cicd
+spec:
+  template:
+    spec:
+      imagePullSecrets:
+      - name: registry-pull-secret
+      containers:
+        - name: test-cicd
+          image: guoxudongdocker/flask-python:latest
+          imagePullPolicy: Always
+          volumeMounts:
+            - name: host-time
+              mountPath: /etc/localtime
+      volumes:
+      - hostPath:
+          path: /etc/localtime
+        name: host-time
