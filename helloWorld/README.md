@@ -1,14 +1,14 @@
-[base]: ../../docs/glossary.md#base
+[base]: https://github.com/kubernetes-sigs/kustomize/tree/master/docs/glossary.md#base
 [config]: https://github.com/kinflate/example-hello
-[gitops]: ../../docs/glossary.md#gitops
+[gitops]: https://github.com/kubernetes-sigs/kustomize/tree/master/docs/glossary.md#gitops
 [hello]: https://github.com/monopole/hello
-[kustomization]: ../../docs/glossary.md#kustomization
+[kustomization]: https://github.com/kubernetes-sigs/kustomize/tree/master/docs/glossary.md#kustomization
 [original]: https://github.com/kinflate/example-hello
-[overlay]: ../../docs/glossary.md#overlay
-[overlays]: ../../docs/glossary.md#overlay
-[patch]: ../../docs/glossary.md#patch
-[variant]: ../../docs/glossary.md#variant
-[variants]: ../../docs/glossary.md#variant
+[overlay]: https://github.com/kubernetes-sigs/kustomize/tree/master/docs/glossary.md#overlay
+[overlays]: https://github.com/kubernetes-sigs/kustomize/tree/master/docs/glossary.md#overlay
+[patch]: https://github.com/kubernetes-sigs/kustomize/tree/master/docs/glossary.md#patch
+[variant]: https://github.com/kubernetes-sigs/kustomize/tree/master/docs/glossary.md#variant
+[variants]: https://github.com/kubernetes-sigs/kustomize/tree/master/docs/glossary.md#variant
 
 # Demo: hello world with variants
 
@@ -27,6 +27,7 @@ DEMO_HOME=$(mktemp -d)
 ```
 
 或者：
+
 > ```
 > DEMO_HOME=~/hello
 > ```
@@ -200,7 +201,7 @@ spec:
 EOF
 ```
 
-## Compare overlays 比较 overlays
+## 比较 overlays
 
 
 `DEMO_HOME` 现在包含：
