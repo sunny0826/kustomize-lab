@@ -94,7 +94,7 @@ more $BASE/kustomization.yaml
 kustomize build $BASE
 ```
 
-### Customize the base 定制 base
+### 定制 base
 
 定制 _app label_ 并应用于所有的 resources ：
 
